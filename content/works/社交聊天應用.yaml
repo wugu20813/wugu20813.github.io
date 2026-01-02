@@ -1,0 +1,27 @@
+id: "2"
+title: "社交聊天應用"
+description: "即時通訊 App，支援文字、語音訊息與群組聊天"
+image: "/attached_assets/generated_images/Mobile_app_project_thumbnail_9f1091aa.png"
+tags:
+  - "React Native"
+  - "Firebase"
+  - "WebSocket"
+links:
+  demo: "#"
+  github: "#"
+content: |
+  # 社交聊天應用
+
+  這是一個即時通訊 App，支援文字、語音訊息與群組聊天。
+
+  ## 主要功能
+
+  - 即時文字訊息
+  - 語音訊息
+  - 群組聊天
+  - 檔案分享
+
+  ## 技術架構
+
+  使用 React Native 開發跨平台應用，Firebase 處理後端服務，WebSocket 實現即時通訊。
+

@@ -1,7 +1,7 @@
-import studyImg from "@assets/generated_images/Student_profile_portrait_photo_d6755280.png";
-import codingImg from "@assets/generated_images/Coding_workspace_lifestyle_photo_b2ca2acb.png";
-import presentImg from "@assets/generated_images/Presentation_lifestyle_photo_2031f8e1.png";
-import journalImg from "@assets/generated_images/Creative_journaling_lifestyle_photo_e777bdb2.png";
+const studyImg = "/attached_assets/generated_images/Student_profile_portrait_photo_d6755280.png";
+const codingImg = "/attached_assets/generated_images/Coding_workspace_lifestyle_photo_b2ca2acb.png";
+const presentImg = "/attached_assets/generated_images/Presentation_lifestyle_photo_2031f8e1.png";
+const journalImg = "/attached_assets/generated_images/Creative_journaling_lifestyle_photo_e777bdb2.png";
 
 export default function About() {
   return (

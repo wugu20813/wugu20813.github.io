@@ -1,0 +1,27 @@
+id: "1"
+title: "智能數據儀表板"
+description: "企業級數據視覺化平台，支援即時數據分析與自訂報表功能"
+image: "/attached_assets/generated_images/Coding_workspace_lifestyle_photo_b2ca2acb.png"
+tags:
+  - "React"
+  - "D3.js"
+  - "Node.js"
+links:
+  demo: "#"
+  github: "#"
+content: |
+  # 智能數據儀表板
+
+  這是一個企業級數據視覺化平台，支援即時數據分析與自訂報表功能。
+
+  ## 功能特色
+
+  - 即時數據分析
+  - 自訂報表功能
+  - 多種圖表類型
+  - 響應式設計
+
+  ## 技術實現
+
+  使用 React 作為前端框架，D3.js 進行數據視覺化，Node.js 作為後端服務。
+

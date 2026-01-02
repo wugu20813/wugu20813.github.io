@@ -1,0 +1,72 @@
+{
+  "diaries": [
+    {
+      "id": "1",
+      "date": "2025-01-15",
+      "title": "開始新的學期",
+      "preview": "今天是新學期的第一天，充滿了期待與挑戰。我為自己設定了許多新目標...",
+      "content": "# 開始新的學期\n\n今天是新學期的第一天，充滿了期待與挑戰。我為自己設定了許多新目標，希望能在這個學期有所突破。\n\n## 新學期的目標\n\n- 提升程式設計能力\n- 完成至少三個專案\n- 參加技術研討會\n- 建立個人作品集\n\n## 期待\n\n我期待在這個學期能夠學到更多知識，並且將所學應用到實際專案中。希望能夠與同學們一起學習、一起進步。\n",
+      "slug": "開始新的學期"
+    },
+    {
+      "id": "2",
+      "date": "2025-01-10",
+      "title": "完成了第一個 AI 專案",
+      "preview": "經過一個月的努力，我終於完成了我的第一個機器學習專案...",
+      "content": "# 完成了第一個 AI 專案\n\n經過一個月的努力，我終於完成了我的第一個機器學習專案。這個過程讓我學到了很多東西。\n\n## 專案內容\n\n這個專案是一個基於自然語言處理的智能助理，可以協助日常任務管理。\n\n### 技術棧\n\n- Python\n- TensorFlow\n- NLP\n\n## 學習心得\n\n在開發過程中，我深刻體會到機器學習的複雜性和魅力。雖然遇到了很多困難，但最終成功完成專案讓我非常有成就感。\n",
+      "slug": "完成了第一個-AI-專案"
+    }
+  ],
+  "works": [
+    {
+      "id": "1",
+      "title": "智能數據儀表板",
+      "description": "企業級數據視覺化平台，支援即時數據分析與自訂報表功能",
+      "image": "/attached_assets/generated_images/Coding_workspace_lifestyle_photo_b2ca2acb.png",
+      "tags": [
+        "React",
+        "D3.js",
+        "Node.js"
+      ],
+      "links": {
+        "demo": "#",
+        "github": "#"
+      },
+      "content": "# 智能數據儀表板\n\n這是一個企業級數據視覺化平台，支援即時數據分析與自訂報表功能。\n\n## 功能特色\n\n- 即時數據分析\n- 自訂報表功能\n- 多種圖表類型\n- 響應式設計\n\n## 技術實現\n\n使用 React 作為前端框架，D3.js 進行數據視覺化，Node.js 作為後端服務。\n",
+      "slug": "智能數據儀表板"
+    },
+    {
+      "id": "2",
+      "title": "社交聊天應用",
+      "description": "即時通訊 App，支援文字、語音訊息與群組聊天",
+      "image": "/attached_assets/generated_images/Mobile_app_project_thumbnail_9f1091aa.png",
+      "tags": [
+        "React Native",
+        "Firebase",
+        "WebSocket"
+      ],
+      "links": {
+        "demo": "#",
+        "github": "#"
+      },
+      "content": "# 社交聊天應用\n\n這是一個即時通訊 App，支援文字、語音訊息與群組聊天。\n\n## 主要功能\n\n- 即時文字訊息\n- 語音訊息\n- 群組聊天\n- 檔案分享\n\n## 技術架構\n\n使用 React Native 開發跨平台應用，Firebase 處理後端服務，WebSocket 實現即時通訊。\n",
+      "slug": "社交聊天應用"
+    }
+  ],
+  "videos": [
+    {
+      "id": "1",
+      "title": "我的程式學習之旅",
+      "description": "分享我從零開始學習程式設計的心路歷程",
+      "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+    },
+    {
+      "id": "2",
+      "title": "專案展示：AI 聊天機器人",
+      "description": "展示我最近完成的 AI 專案功能與技術細節",
+      "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+    }
+  ]
+}

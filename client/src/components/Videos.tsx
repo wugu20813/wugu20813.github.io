@@ -1,34 +1,10 @@
 import { Play } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { useState } from "react";
-
-interface Video {
-  id: number;
-  title: string;
-  description: string;
-  embedUrl: string;
-  thumbnail: string;
-}
-
-const mockVideos: Video[] = [
-  {
-    id: 1,
-    title: "我的程式學習之旅",
-    description: "分享我從零開始學習程式設計的心路歷程",
-    embedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    thumbnail: "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
-  },
-  {
-    id: 2,
-    title: "專案展示：AI 聊天機器人",
-    description: "展示我最近完成的 AI 專案功能與技術細節",
-    embedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    thumbnail: "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
-  },
-];
+import { videos } from "@/data/content";
 
 export default function Videos() {
-  const [playingId, setPlayingId] = useState<number | null>(null);
+  const [playingId, setPlayingId] = useState<string | null>(null);
 
   return (
     <section id="videos" className="py-24 bg-background">
@@ -41,7 +17,7 @@ export default function Videos() {
         </h2>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {mockVideos.map((video) => (
+          {videos.map((video) => (
             <Card
               key={video.id}
               className="overflow-hidden hover-elevate transition-all"

@@ -1,6 +1,7 @@
 import { ArrowDown } from "lucide-react";
 import { useEffect, useState } from "react";
-import profileImg from "@assets/generated_images/Student_profile_portrait_photo_d6755280.png";
+
+const profileImg = "/attached_assets/generated_images/Student_profile_portrait_photo_d6755280.png";
 
 export default function Hero() {
   const [displayedText, setDisplayedText] = useState("");
